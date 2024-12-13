@@ -159,7 +159,7 @@ export const food_list = [
     image: food_5,
     price: 320,
     description:
-      "Individual lasagna rolls filled with ricotta and spinach, topped with marinara",
+      "Individual lasagna rolls filled with ricotta and spinach",
     category: "Rolls",
   },
   {
@@ -190,7 +190,7 @@ export const food_list = [
   },
   {
     _id: "9",
-    name: "Ripple Ice Cream",
+    name: " Ice Cream",
     image: food_9,
     price: 120,
     description: "Creamy vanilla ice cream with a delicious fruit ripple",
@@ -215,7 +215,7 @@ export const food_list = [
   },
   {
     _id: "12",
-    name: "Vanilla Ice Cream",
+    name: "G Ice Cream",
     image: food_12,
     price: 100,
     description:
@@ -275,7 +275,7 @@ export const food_list = [
   },
   {
     _id: "19",
-    name: "Butterscotch Cake",
+    name: "Buttery Cake",
     image: food_19,
     price: 450,
     description:
@@ -367,7 +367,7 @@ export const food_list = [
   },
   {
     _id: "30",
-    name: "Veg Noodles",
+    name: "Veg healthy Noodles",
     image: food_30,
     price: 200,
     description: "Stir-fried noodles with a medley of crisp vegetables",

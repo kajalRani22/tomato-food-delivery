@@ -5,9 +5,9 @@ import { assets } from "../assets/assets";
 import { Link } from "react-router-dom";
 import { StoreContext } from "./Context/StoreContext";
 const Navbar = ({ setShowLogin }) => {
-  const [menu, setMenu] = useState("home");
+const [menu, setMenu] = useState("home");
 
-  const { getTotalCartAmount } = useContext(StoreContext);
+const { getTotalCartAmount } = useContext(StoreContext);
   return (
     <div className="navbar justify-between items-center flex pt-5 pr-0 pl-0">
       <Link to="/">
@@ -44,11 +44,11 @@ const Navbar = ({ setShowLogin }) => {
         </a>
       </ul>
 
-      <div className="navbar-right flex items-center gap-14">
+      <div className="navbar-right flex items-center gap-14"> {/* search bar*/}
         <img src={assets.search_icon} alt="" />
         <div className="navbar-search-icon">
           <Link to={"/cart"}>
-            <img src={assets.basket_icon} alt="" />
+            <img src={assets.basket_icon} alt="" />   {/* basket */}
           </Link>
           <div className={getTotalCartAmount() === 0 ? "" : "dot"}></div>
         </div>
